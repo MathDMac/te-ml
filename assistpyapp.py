@@ -43,9 +43,9 @@ def abrir_youtube():
 
 def abrir_farmacia():
     speak("Procurando farmácia próxima.")
-    webbrowser.open("https://www.google.com/maps/search/farmácia+próxima/")
+    webbrowser.open("/")
 
-# Programa principal
+
 def main():
     speak("Olá! Sou sua assistente virtual. Diga um comando.")
     while True:
